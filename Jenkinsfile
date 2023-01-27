@@ -12,4 +12,9 @@ pipeline {
       }
     }
 }
+post {
+always {
+echo "send an email"
+}
+}
 }
